@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3-jan-2019, 16:38:58
+    Author     : Inge
+*/
+
+.root{
+
+
+    -fx-font-familiy: "Arial";
+    -fx-background-image: url(/util/homepage6.png);
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+
+}
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+#vboxSchoolInfo{
+
+    -fx-background-color: Rgb(242,251,255);
+    -fx-background-radius: 2;
+    -fx-border-radius: 2;
+    -fx-border: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: rgb(0,64,100);
+    -fx-padding: 20;
+
+
+}
+
+#vbox{
+
+    -fx-border-radius: 2;
+    -fx-border: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: rgb(0,64,100);
+
+
+}
+
+/* Unselected star */
+.rating > .container > .button {
+    -fx-background-image: url("outline-star-32-blauw.png");
+    -fx-opacity: 0.6;
+
+}
+
+
+/* Selected star */
+.rating > .container > .button.strong {
+    -fx-background-image: url("star-8-32-blauw.png");
+    -fx-opacity: 0.6;
+}
+
+#btnTerug{
+
+    -fx-text-fill: white;
+    -fx-background-color: Rgb(0,64,100);
+    -fx-font-weight: bold;
+}
+
+#btnTerug:hover{
+
+    -fx-background-color: Rgb(128, 0 ,128);
+    -fx-cursor: hand;
+
+}
+
+#btnWebsite{
+
+    -fx-text-fill: white;
+    -fx-background-color: rgb(128, 0, 128);
+    -fx-font-weight: bold;
+}
+
+#btnWebsite:hover{
+
+    -fx-background-color: Rgb(0,64,100);
+    -fx-cursor: hand;
+
+
+}
+
+#btnFavorieten{
+
+    -fx-graphic: url("/util/favorite-2-24.png");
+    -fx-padding: 2;
+    -fx-background-color: Rgb(242,251,255);
+    -fx-border-color: rgb(128, 0, 128);
+    -fx-border: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 2;
+
+
+
+}
+
+#btnFavorieten:hover{
+
+    -fx-graphic: url("/util/favorite-7-24.png");
+    -fx-padding: 2;
+    -fx-background-color: Rgb(242,251,255);
+    -fx-border-color: rgb(128, 0, 128);
+    -fx-border: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 2;
+    -fx-cursor:hand;
+}
+
+#btnFavorieten:armed{
+
+    -fx-graphic: url("/util/favorite-2-24.png");
+    -fx-padding: 2;
+    -fx-background-color: Rgb(242,251,255);
+    -fx-border-color: rgb(128, 0, 128);
+    -fx-border: solid;
+    -fx-border-width: 2px;
+    -fx-border-radius: 2;
+
+}

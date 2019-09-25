@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29-dec-2018, 15:23:56
+    Author     : Inge
+*/
+
+.root{
+
+    -fx-background-color: white;
+    -fx-font-familiy: "Arial";
+    -fx-background-image: url(/util/homepage6.png);
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+
+}
+
+
+
+#gridpane{
+
+    
+    -fx-padding: 50px;
+    -fx-alignment:CENTER;
+    -fx-pref-width: 1500;
+    
+
+}
+
+#GridpaneInhoud{
+
+    -fx-background-color: Rgb(242,251,255);
+    -fx-background-radius: 2;
+    -fx-border-radius: 2;
+    -fx-border: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: rgb(0,64,100);
+    -fx-hgap: 10px;
+    -fx-vgap: 40px;
+    -fx-alignment: TOP_CENTER;
+    
+}
+
+#lblSchoolnaam{
+    
+    -fx-background-color: Rgb(242,251,255);
+    -fx-background-radius: 2;
+    -fx-border-radius: 2;
+    -fx-border: solid;
+    -fx-border-width: 3px;
+    -fx-border-color: rgb(0,64,100);
+    -fx-padding: 20px;
+       
+}
+
+.label{
+
+    -fx-text-fill: rgb(0,64,100);
+    -fx-font-size: 18px;
+
+}
+
+/* Unselected star */
+.rating > .container > .button {
+    -fx-background-image: url("outline-star-32-blauw.png");
+
+}
+
+
+/* Selected star */
+.rating > .container > .button.strong {
+    -fx-background-image: url("star-8-32-blauw.png");
+}
+
+#btnReview{
+
+    -fx-background-color: rgb(0,64,100);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 5;
+    -fx-min-width: 110;
+
+}
+
+#btnReview:hover{
+
+    -fx-background-color: Rgb(0,173,241);
+    -fx-cursor: hand;
+
+
+}
+
+.scroll-pane{
+    -fx-background-color:transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.combo-box-base {
+    -fx-background-color: transparent;
+    -fx-border-color: rgb(0,64,100);
+    -fx-border: solid;
+    -fx-border-width: 2px;
+    -fx-text-fill: white;
+    -fx-content-display: LEFT;
+}

@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-dec-2018, 17:19:58
+    Author     : Inge
+*/
+
+.root{
+
+    -fx-background-image: url(/util/homepage6.png);
+    -fx-background-size: stretch;
+    -fx-background-repeat: no-repeat;
+    -fx-font-family: "Arial";
+
+
+}
+
+.label.lbl{
+
+    -fx-text-fill: rgb(0,64,100);
+    -fx-font-weight: bold;
+    -fx-font-size: 55px;
+
+}
+
+.label{
+
+    -fx-text-fill: rgb(0,64,100);
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+
+}
+
+.button{
+
+    -fx-background-color: rgb(0,64,100);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 10;
+
+
+}
+
+.button:hover{
+
+    -fx-background-color: Rgb(0,173,241);
+    -fx-cursor: hand;
+
+
+}
+
+.label.lbltekst{
+
+    -fx-font-size: 20px;
+    -fx-wrap-text: true;
+    -fx-max-width: 450;
+    -fx-text-alignment: center;
+
+}
+
+#layout{
+
+    -fx-border: solid;
+    -fx-border-color: rgb(0,64,100);
+    -fx-border-size: 2px;
+    -fx-alignment: CENTER;
+    -fx-min-width: 756;
+}
